@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(200, 120, 238);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #d5f00b;
+    color: rgb(227, 17, 17);
+    text-align: center;
+    padding:1.5cm;
+  }
+  
+  main {
+    padding:2cm;
+  }
+  
+  h2 {
+    margin-bottom: 1 cm;
+    color:blue;
+  }
+  
+  .form-section, .recipe-display {
+    margin-bottom: 2 cm;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    color:springgreen;
+  }
+  
+  
+  form label {
+    margin: 0.5cm 0 0.25cm;
+    background-color:rgb(11, 64, 68) ;
+  }
+  
+  form input, form textarea {
+    padding: 1.5 cm;
+    margin: 2 cm;
+    border: 3px solid rgb(4, 2, 74);
+    border-radius: 15px;
+    background-color: #c7ddd2;
+    gap:1.5cm;
+  }
+
+  form button {
+    padding: auto;
+    margin: auto;
+    border: 3px solid rgb(4, 2, 74);
+    border-radius: 15px;
+    background-color: aqua;
+  }
+  
+  #recipeList {
+    display: flex;
+    flex-direction: column;
+    gap: 2cm;
+  }
+  
+  .recipe-card {
+    border: 4px solid #612020;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 35px ;
+    background: #9ce1be;
+  }
+
+  .deleteButton {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
