@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(200, 120, 238);
+    background-color: rgb(120, 238, 185);
     margin: 0;
     padding: 0;
   }
   
   header {
     background: #d5f00b;
-    color: rgb(227, 17, 17);
+    color: rgb(90, 17, 227);
     text-align: center;
     padding:1.5cm;
   }
@@ -28,7 +28,7 @@ body {
   form {
     display: flex;
     flex-direction: column;
-    color:springgreen;
+    color:rgb(4, 238, 246);
   }
   
   
